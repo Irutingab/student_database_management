@@ -1,4 +1,4 @@
-STUDENT DATABASE MANAGEMENT
+                          STUDENT DATABASE MANAGEMENT                                                                                                                                                                                                                                                                                                                                               
 This project contains a csv file conataing students records(name, email, phone number, and their grades in 6 courses).
 The program(csvintosql.py) imports the data from python to (students_records) in mysql.
 After importing the data into our data base, we have to make sure users can interact with it be bale to accomplish various operations.
