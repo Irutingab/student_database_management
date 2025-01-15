@@ -38,13 +38,12 @@ class TruncateDatabase:
             print("No active database connection.")
             return
         try:
-            self.cursor.execute("TRUNCATE TABLE students_records")  # Replace with your actual table name
+            self.cursor.execute("TRUNCATE TABLE students_records") 
             self.conn.commit()
             print("Table truncated successfully.")
         except mysql.connector.Error as err:
             print(f"Error: {err}")
 
-# Main block
 if __name__ == "__main__":
     db_manager = TruncateDatabase(
         host="localhost",
