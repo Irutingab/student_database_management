@@ -52,6 +52,7 @@ class StudentReport:
         self.conn.commit()
 
     def display_top_student(self, report_data):
+        
         if report_data:
             top_student = report_data[0]
             print(f"Top Student: {top_student[0]} with {top_student[2]:.2f}%")
